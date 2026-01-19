@@ -1,4 +1,5 @@
 package com.research.model;
 
-public class PassStatus {
+public enum PassStatus {
+    PENDING, APPROVED, DENIED, COMPLETED
 }

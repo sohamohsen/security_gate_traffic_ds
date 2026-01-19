@@ -1,4 +1,9 @@
 package com.research.repository;
 
-public class GateStaffRepository {
+import com.research.model.GateStaff;
+
+public class GateStaffRepository extends InMemoryRepository<GateStaff> {
+    public GateStaffRepository() {
+        super("GateStaff");
+    }
 }

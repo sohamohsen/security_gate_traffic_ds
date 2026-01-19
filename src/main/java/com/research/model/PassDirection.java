@@ -1,4 +1,5 @@
 package com.research.model;
 
-public class PassDirection {
+public enum PassDirection {
+    ENTRY, EXIT
 }

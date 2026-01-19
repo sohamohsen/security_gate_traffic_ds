@@ -1,4 +1,5 @@
 package com.research.model;
 
-public class LaneStatus {
+public enum LaneStatus {
+    OPEN, CLOSED, BUSY
 }
