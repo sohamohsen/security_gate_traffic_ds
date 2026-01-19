@@ -4,7 +4,6 @@ import com.research.exception.BusinessRuleViolationException;
 import com.research.exception.NotFoundException;
 import com.research.model.VisitReservation;
 import com.research.repository.VisitReservationRepository;
-import com.research.service.ValidationService;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
